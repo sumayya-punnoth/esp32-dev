@@ -880,7 +880,7 @@
 			(net 1 "GND")
 			(pinfunction "Shield")
 			(pintype "passive")
-			(uuid "72a36fc2-4083-4847-8e90-d2db7ba7f9e8")
+			(uuid "753c3bf8-95d4-4bdb-a64a-6649307007cf")
 		)
 		(pad "6" smd rect
 			(at -1.15 1.2)
@@ -889,7 +889,7 @@
 			(net 1 "GND")
 			(pinfunction "Shield")
 			(pintype "passive")
-			(uuid "72a36fc2-4083-4847-8e90-d2db7ba7f9e8")
+			(uuid "655aeab6-f950-4abd-b171-7c2dcf69b3f5")
 		)
 		(pad "6" smd rect
 			(at 1.55 1.2)
@@ -898,7 +898,7 @@
 			(net 1 "GND")
 			(pinfunction "Shield")
 			(pintype "passive")
-			(uuid "72a36fc2-4083-4847-8e90-d2db7ba7f9e8")
+			(uuid "f1a32345-1f58-4973-ba0d-340cf3309483")
 		)
 		(pad "6" smd rect
 			(at 2.4875 -1.375)
@@ -907,7 +907,7 @@
 			(net 1 "GND")
 			(pinfunction "Shield")
 			(pintype "passive")
-			(uuid "72a36fc2-4083-4847-8e90-d2db7ba7f9e8")
+			(uuid "80b995e0-cf51-44f2-929a-7c54fb4a9f80")
 		)
 		(pad "6" smd rect
 			(at 3.375 1.2)
@@ -916,7 +916,7 @@
 			(net 1 "GND")
 			(pinfunction "Shield")
 			(pintype "passive")
-			(uuid "72a36fc2-4083-4847-8e90-d2db7ba7f9e8")
+			(uuid "361af65b-a974-4fe0-ade7-39a2d404aa98")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Micro-B_Molex_47346-0001.step"
@@ -10231,6 +10231,16 @@
 		)
 		(embedded_fonts no)
 	)
+	(gr_line
+		(start 86.375 72.85)
+		(end 86.375 66.4875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0d735a85-9884-415f-8361-b5abb84538d1")
+	)
 	(gr_curve
 		(pts
 			(xy 110.3884 122.936) (xy 111.4044 122.936) (xy 111.4044 121.8184) (xy 111.4044 121.7676)
@@ -10241,6 +10251,17 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "29cf0c38-e302-41fa-8185-8d79dc7694e5")
+	)
+	(gr_arc
+		(start 86.375 66.4875)
+		(mid 86.492157 66.204657)
+		(end 86.775 66.0875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "39388319-da32-494d-9cfc-9a8b7c0e665a")
 	)
 	(gr_line
 		(start 110.3884 122.936)
@@ -10253,6 +10274,16 @@
 		(uuid "435c8275-36af-477b-9dc4-9115e7b77ddf")
 	)
 	(gr_line
+		(start 105.15 66.4875)
+		(end 105.15 72.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5b4c8103-64ce-4b0b-8ed8-6eb7eff7ba3e")
+	)
+	(gr_line
 		(start 80.1624 121.92)
 		(end 80.1624 74.0156)
 		(stroke
@@ -10261,6 +10292,26 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "7183e60a-9712-4313-aedd-8d79d0e80c70")
+	)
+	(gr_line
+		(start 105.15 72.85)
+		(end 110.236 72.8472)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "86204c72-e129-4718-b9a9-a0fb0396965c")
+	)
+	(gr_line
+		(start 86.775 66.0875)
+		(end 104.75 66.0875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8d64eb03-6144-46a3-8fa9-0a8f40a570ab")
 	)
 	(gr_curve
 		(pts
@@ -10283,6 +10334,17 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "bd9b9e14-91c6-45e9-a71d-65330876d20b")
+	)
+	(gr_arc
+		(start 104.75 66.0875)
+		(mid 105.032843 66.204657)
+		(end 105.15 66.4875)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c0cc2b81-1948-4bd1-bf5d-867e86e5b163")
 	)
 	(gr_curve
 		(pts
@@ -10307,7 +10369,7 @@
 	)
 	(gr_line
 		(start 81.1784 72.8472)
-		(end 110.236 72.8472)
+		(end 86.375 72.85)
 		(stroke
 			(width 0.05)
 			(type default)
